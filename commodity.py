@@ -142,29 +142,30 @@ def onions():
 
 
 def allcommodities():
-	gold()
-	silver()
-	cotton()
-	crude()
-	natural()
-	aluminium()
-	copper()
-	nickel()
-	lead()
-	zinc()
-	mentaoil()
-	rmseed()
-	soybean()
-	cocudakl()
-	Turmeric()
-	dhaniya()
-	sugar()
-	jeera()
-	wheat()
-	chana()
-	palmoil()
-	potato()
-	onions()
+ while(1):
+	 gold()
+	 silver()
+	 cotton()
+	 crude()
+	 natural()
+	 aluminium()
+	 copper()
+	 nickel()
+	 lead()
+	 zinc()
+	 mentaoil()
+	 rmseed()
+	 soybean()
+	 cocudakl()
+	 Turmeric()
+	 dhaniya()
+	 sugar()
+	 jeera()
+	 wheat()
+	 chana()
+	 palmoil()
+	 potato()
+	 onions()
 
 
 def pcomm():
@@ -194,51 +195,74 @@ def pcomm():
  print("23. onions")
  choice = int(input())
  if (choice == 1):
-	 gold()
+ 	while(1):
+	    gold()
  if (choice == 2):
-	 silver()
+ 	while(1):
+	    silver()
  if (choice == 3):
-	 cotton()
+ 	while(1):
+	    cotton()
  if (choice == 4):
-	 crude()
+ 	while(1):
+	    crude()
  if (choice == 5):
-	 natural()
+ 	while(1):
+	    natural()
  if (choice == 6):
-	 aluminium()
+ 	while(1):
+	    aluminium()
  if (choice == 7):
-	 copper()
+ 	while(1):
+	    copper()
  if (choice == 8):
-	 nickel()
+ 	while(1):
+	 	nickel()
  if (choice == 9):
-	 lead()
+ 	while(1):
+	 	lead()
  if (choice == 10):
-	 zinc()
+ 	while(1):
+	 	zinc()
  if (choice == 11):
-	 methaoil()	
+ 	while(1):
+	 	methaoil()	
  if (choice == 12):
-	 rmseed()
+ 	while(1):
+	 	rmseed()
  if (choice == 13):
-	 soybean()
+ 	while(1):
+	 	soybean()
  if (choice == 14):
-	 cocudakl()
+ 	while(1):
+	 	cocudakl()
  if (choice == 15):
-	 Turmeric()
+ 	while(1):
+	 	Turmeric()
  if (choice == 16):
-	 dhaniya()
+ 	while(1):
+	 	dhaniya()
  if (choice == 17):
-	 sugar()
+ 	while(1):
+	 	sugar()
  if (choice == 18):
-	 jeera()
+ 	while(1):
+	 	jeera()
  if (choice == 19):
-	 wheat()
+ 	while(1):
+	 	wheat()
  if (choice == 20):
-	 chana()
+ 	while(1):
+	 	chana()
  if (choice == 21):
-	 palmoil()
+ 	while(1):
+	 	palmoil()
  if (choice == 22):
-	 potato()
+ 	while(1):
+	 	potato()
  if (choice == 23):
-     onions()
+ 	while(1):
+     	 onions()
 
 def start():
  print("do you want to see all commodities or only particular ones")
@@ -249,8 +273,7 @@ def start():
     allcommodities()
  if(choose == 2):
     pcomm()
- if(choose == 3):
- 	print("fuck")
+ 
 
 start()
 
