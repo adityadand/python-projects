@@ -2,7 +2,8 @@
 import requests , sys, webbrowser, bs4
 from bs4 import BeautifulSoup
 query = input("Enter query to find books")
-webbrowser.open('http://libgen.io/search.php?req='+query)
+webbrowser.open('http://libgen.is/search.php?req='+query)
+webbrowser.open('https://www.barnesandnoble.com/s/'+query)
 webbrowser.open('http://gen.lib.rus.ec/search.php?req='+query)
 webbrowser.open('http://b-ok.cc/s/?q='+query)
 webbrowser.open('https://www.bookfinder.com/search/?author=&title='+query)
