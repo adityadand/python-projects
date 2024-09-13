@@ -1,7 +1,7 @@
 #find people information
 import requests , sys, webbrowser, bs4
 from bs4 import BeautifulSoup
-query = input("Enter query to find books")
+query = input("Enter query to find books ")
 webbrowser.open('http://libgen.is/search.php?req='+query)
 webbrowser.open('https://www.barnesandnoble.com/s/'+query)
 webbrowser.open('http://gen.lib.rus.ec/search.php?req='+query)
